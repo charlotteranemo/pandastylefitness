@@ -1,0 +1,43 @@
+/*---Footer---*/
+
+footer {
+    background-color: rgb(73, 73, 73);
+    position: relative;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+footer a {
+    color: whitesmoke;
+}
+
+#copy {
+    margin-top: 60px;
+}
+
+#social_front,
+#contact_front,
+#icon_front {
+    width: 50%;
+}
+
+#footer_div {
+    display: flex;
+}
+
+footer h4 {
+    margin-bottom: 20px;
+}
+
+#icon_front i {
+    font-size: 3em;
+    padding: 10px;
+}
+
+.clear {
+    clear: both;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,134 @@
+@media screen and (max-width: 1200px) {
+    #front_dumbbell {
+        height: 300px;
+        background-image: url("../pictures/dumbbellFront2.jpg");
+        background-size: 150%;
+    }
+    
+    #front_pic {
+        height: 300px;
+    }
+
+    #archive {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .front_article {
+        margin: 7px;
+    }
+
+    .front_article h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #front_dumbbell {
+        height: 400px;
+        background-image: url("../../pictures/dumbbellFront2.jpg");
+        background-attachment: scroll;
+    }
+    
+    #front_pic {
+        height: 400px;
+        background-attachment: scroll;
+    }
+
+    footer {
+        font-size: 80%;
+    }
+
+    #icon_front {
+        width: 30%;
+    }
+
+    .single_article,
+    .single_comments {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main_content,
+    header,
+    footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #front_dumbbell {
+        height: 300px;
+        background-image: url("../../pictures/dumbbellFront2.jpg");
+        background-attachment: scroll;
+    }
+    
+    #front_pic {
+        height: 300px;
+        background-attachment: scroll;
+    }
+
+    #footer_div {
+        display: block;
+    }
+
+    #icon_front,
+    #social_front,
+    #contact_front {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .comment_link,
+    .tag {
+        float: none;
+    }
+
+    .tag {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    #front_posts {
+        display: block;
+    }
+
+    .front_article {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .front_article h2 {
+        margin-bottom: 40px;
+    }
+
+    #start_text {
+        width: 80%;
+        padding: 10px;
+    }
+
+    #contact_div {
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .logo {
+        width: 300px;
+    }
+
+    .menu li {
+        font-size: 1em;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #front_dumbbell,
+    #front_pic {
+        height: 250px;
+    }
+}

@@ -1,0 +1,147 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.6em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
+h5 {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+p, a {
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 1.2em;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+ul {
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+ol {
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+ol li {
+    list-style: decimal;
+}
+
+ul li {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+em {
+    font-style: italic;
+}
+
+/*---Header---*/
+
+.logo {
+    width: 400px;
+}
+
+header {
+    text-align: center;
+    padding-top: 20px;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+    padding-bottom: 40px;
+}
+
+.menu a {
+    font-size: 1.4em;
+    font-family: 'Varela Round', sans-serif;
+    padding: 5px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.menu a:after {
+    content: "";
+    width: 0;
+}
+
+.menu a:hover:after {
+    content: "";
+    background-color: rgb(37, 102, 0);
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    height: 5px;
+    width: 50px;
+    transition: ease-in-out 0.2s;
+}
+
+.menu .current_page_item a::after {
+    content: "";
+    background-color: rgb(114, 192, 68);
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    height: 5px;
+    width: 50px;
+}
+
+.menu {
+    margin-top: 75px;
+    width: 100%;
+}
+
+.menu {
+    margin-left: 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 30px;
+}
+
+.main_content {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+body {
+    width: 100%;
+    background-image: url('../../pictures/background.jpg');
+    overflow-x: hidden;
+}

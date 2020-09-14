@@ -1,0 +1,53 @@
+/*---Front page---*/
+
+#front_pic {
+    width: 100%;
+    background-image: url('../../pictures/lazyPandaFront.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+#start {
+    display: flex;
+}
+
+#start_text {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px;
+}
+
+#start_text p {
+    margin-top: 15px;
+}
+
+#front_dumbbell {
+    width: 100%;
+    background-image: url('../../pictures/dumbbellFront.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+#front_posts p {
+    width: 100%;
+    text-align: center;
+}
+
+#latest {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.line {
+    width: 50px;
+    height: 5px;
+    margin: 0 auto;
+    background-color: rgb(37, 102, 0);
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
